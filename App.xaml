@@ -1,0 +1,36 @@
+﻿<Application x:Class="WpfApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:view="clr-namespace:WpfApp1.View"
+             xmlns:vm="clr-namespace:WpfApp1.ViewModel"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type vm:TodoListViewModel}">
+            <view:TodoListView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:DetailViewModel}">
+            <view:DetailView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CreateViewModel}">
+            <view:CreateView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:EditViewModel}">
+            <view:EditView />
+        </DataTemplate>
+        <Style x:Key="TodoListButton" TargetType="Button">
+            <Setter Property="DockPanel.Dock" Value="Right"/>
+            <Setter Property="Margin" Value="5,0,0,0"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Height" Value="20"/>            
+        </Style>
+        <Style x:Key="MainButton" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="65"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0,49,0,0"/>                       
+        </Style>                   
+    </Application.Resources>
+</Application>
