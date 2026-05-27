@@ -12,7 +12,7 @@ using System.Windows.Data;
 using System.Windows;
 
 
-namespace WpfApp1.ViewModel
+namespace TodoList.ViewModel
 {
     public class TodoListViewModel : ViewModelBase
     {

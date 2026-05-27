@@ -1,7 +1,7 @@
 ﻿using GalaSoft.MvvmLight.Command;
 using System.Windows.Input;
 
-namespace WpfApp1.ViewModel
+namespace TodoList.ViewModel
 {
     public class CreateViewModel : ViewModelBase
     {

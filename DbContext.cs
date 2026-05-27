@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Configuration; // ConfigurationManagerを使うために必要
 
-namespace WpfApp1
+namespace TodoList
 {
     public class DbContext : Microsoft.EntityFrameworkCore.DbContext
     {

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 
-namespace WpfApp1
+namespace TodoList
 {
     public class TodoEntity 
     {

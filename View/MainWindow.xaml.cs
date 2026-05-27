@@ -11,10 +11,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.EntityFrameworkCore;
-using WpfApp1.ViewModel;
+using TodoList.ViewModel;
 
 
-namespace WpfApp1
+namespace TodoList
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

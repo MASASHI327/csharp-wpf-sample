@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApp1.ViewModel;
+using TodoList.ViewModel;
 
-namespace WpfApp1.View
+namespace TodoList.View
 {
     /// <summary>
     /// MainListView.xaml の相互作用ロジック

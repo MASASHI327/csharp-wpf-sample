@@ -1,8 +1,8 @@
-﻿<Application x:Class="WpfApp1.App"
+﻿<Application x:Class="TodoList.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:view="clr-namespace:WpfApp1.View"
-             xmlns:vm="clr-namespace:WpfApp1.ViewModel"
+             xmlns:view="clr-namespace:TodoList.View"
+             xmlns:vm="clr-namespace:TodoList.ViewModel"
              StartupUri="View/MainWindow.xaml">
     <Application.Resources>
         <DataTemplate DataType="{x:Type vm:TodoListViewModel}">

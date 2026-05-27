@@ -2,7 +2,7 @@
 using GalaSoft.MvvmLight.Command;
 
 
-namespace WpfApp1.ViewModel
+namespace TodoList.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {

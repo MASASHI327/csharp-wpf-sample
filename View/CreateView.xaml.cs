@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1.View
+namespace TodoList.View
 {
     /// <summary>
     /// CreateView.xaml の相互作用ロジック

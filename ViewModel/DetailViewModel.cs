@@ -1,5 +1,5 @@
 ﻿
-namespace WpfApp1.ViewModel
+namespace TodoList.ViewModel
 {
     public class DetailViewModel : ViewModelBase
     {
