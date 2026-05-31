@@ -7,10 +7,10 @@
 
 ### API構成 
      
-Todoデータを全取得\      
-Todoデータのidに紐づくTodoデータを取得\ 
-Todoデータの新規作成\ 
-Todoデータの更新\  
+Todoデータを全取得      
+Todoデータのidに紐づくTodoデータを取得   
+Todoデータの新規作成  
+Todoデータの更新  
 Todoデータの削除
 
 
