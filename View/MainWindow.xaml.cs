@@ -34,8 +34,6 @@ namespace TodoList
             var service = new TodoListService(repository);
             return new MainViewModel(service);
         }
-           
-
-    }
+     }
 
 }

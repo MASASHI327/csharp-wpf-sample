@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:view="clr-namespace:TodoList.View"
              xmlns:vm="clr-namespace:TodoList.ViewModel"
-             StartupUri="View/MainWindow.xaml">
+             Startup="Application_Startup">
     <Application.Resources>
         <DataTemplate DataType="{x:Type vm:TodoListViewModel}">
             <view:TodoListView />

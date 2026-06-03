@@ -10,11 +10,6 @@ namespace TodoList
         /// <summary>
         /// プロパティの値を更新し、変更通知を送る
         /// </summary>
-        /// <typeparam name="T">プロパティの型</typeparam>
-        /// <param name="field">バッキングフィールド（_プロパティ名）</param>
-        /// <param name="value">新しい値</param>
-        /// <param name="propertyName">プロパティ名（自動取得される）</param>
-        /// <returns>値が更新されたかどうか</returns>
         protected virtual bool SetProperty<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
         {
             if (Equals(field, value)) return false;
